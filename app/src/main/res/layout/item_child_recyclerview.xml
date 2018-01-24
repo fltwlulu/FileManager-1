@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:gravity="left|center"
     android:layout_height="wrap_content"
+    android:background="@drawable/recycler_bg"
     tools:ignore="RtlHardcoded">
     <!-- 图标 -->
     <ImageView
@@ -15,7 +16,7 @@
     <TextView
         android:id="@+id/rv_child_text"
         android:layout_width="wrap_content"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:layout_height="wrap_content"
         android:singleLine="true"
         android:ellipsize="marquee"
