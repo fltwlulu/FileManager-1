@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create"
+        android:orderInCategory="100"
+        android:title="创建文件|文件夹"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        android:title="复制粘贴"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- 用于显示文件名 -->
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="20sp" />
+    <!-- 用于显示文本内容 -->
+    <EditText
+        android:id="@+id/EditTextDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewTitle"
+        android:gravity="top"
+        android:lines="8" />
+    <!-- 保存按钮 -->
+    <Button
+        android:id="@+id/ButtonRefer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_refer" />
+    <!-- 取消按钮 -->
+    <Button
+        android:id="@+id/ButtonBack"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ButtonRefer"
+        android:text="@string/button_back" />
+</RelativeLayout>

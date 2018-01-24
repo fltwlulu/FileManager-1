@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="left|center"
+    android:layout_height="wrap_content"
+    tools:ignore="RtlHardcoded">
+    <!-- 图标 -->
+    <ImageView
+        android:id="@+id/rv_child_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <!--用于显示文件名的文本框  -->
+    <TextView
+        android:id="@+id/rv_child_text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>
